@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated images (not source code)
+vibe_images/
+
+# Screenshots
+*.png
+!frontend/public/images/hero-bg.png
+
+# Frontend build artifacts & deps
+frontend/node_modules/
+frontend/dist/
+frontend/tsconfig.app.tsbuildinfo
+
+# Node installer
+node-setup.msi
